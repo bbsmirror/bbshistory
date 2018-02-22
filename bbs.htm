@@ -1,0 +1,119 @@
+<html>
+
+<head>
+<title>UNIX</title>
+<meta http-equiv="contect-Type" contect="text/html; charset=utf-8">
+<style type="text/css">
+<!--
+.Title {  font-family: "標楷體", "細明體"; font-size: 18pt; font-style: normal; line-height: 40pt; font-weight: 400; color: #6666FF; clip:  rect(   ); background-color: #CCFFCC; text-align: center}
+.main {  font-family: "細明體"; font-size: 16pt; font-style: normal; line-height: normal; font-weight: normal; text-align: left; color: #0000FF}
+.contect {  font-family: "細明體"; font-size: 14pt}
+-->
+</style>
+
+
+</head>
+
+<body background="bg1.gif">
+<div align="center"><center>
+
+<table border="0" cellpadding="0" cellspacing="0" width="490" height="1787">
+  <tr>
+    <td width="100%" height="1696"><p align="center"><img src="logo.gif" alt="logo.gif (8927 個位元組)" WIDTH="300" HEIGHT="100"></p>
+    <p align="center"><font face="標楷體" size="5" color="#FF0000">台灣BBS發展簡史</font><font size="5" color="#FF0000"><br>
+    </font><small><small>&nbsp;&nbsp;<font color="#000000"><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small></font></small></small></p>
+</center>
+    <p align="right"><font size="3" color="#800000">撰文者：雄中電研社 陳子文同學(BBS架站高手)</font></p> 
+    <p class="contect">　　<font size="3" color="#0000FF">故事，要從現今南部網路重鎮-中山大學說起。西元1992年，中山大學陳年興教授(openmind)立志推廣台灣的電腦網路，他們以Pirates    
+    BBS為基礎加以改良，支援Internet E-mail與bit-8，建構起全台灣第一個全中文化的BBS-中山大學美麗之島站。後來呢，他們將程式寄回給原來的作者，作者再整理發表出來，就成為所謂的Eagle    
+    BBS。</font>   
+    </p>   
+    <p class="contect"><font size="3" color="#0000FF">　　美麗之島站的建立在大專校院帶起了一股BBS熱潮，由於Unix世界的許多程式都是開放程式原始碼(open    
+    source)的，當然Eagle BBS也不例外，於是交大資工在取得它的程式碼之後自行改進，當時BBS是指令式的操作界面，玩BBS必須要輸入各種指令；交大資工將它改為選單式界面，讓BBS上的網友們只要按上下左右鍵就可以打遍天下。由於交大資工站名叫「鳳凰城資訊站」，這套後來受到各家採用的系統也被稱為Phoenix    
+    BBS。</font>   
+    </p>   
+    <p class="contect"><font size="3" color="#0000FF">　　這時台灣學術網路上，BBS有如雨後春筍般地一個個出現啊！各站站長除了管理站務之外，也常常會改進自己站的程式，消除bugs、或是增加新功能。這時各校的BBS大都是使用自己發展出來的程式，因此呈現出來的面貌、風格都不太相同。</font> 
+    </p> 
+    <p class="contect"><font size="3" color="#0000FF">　　隨著各地BBS的普及，有人開始想了：如果我在中山「美麗之島」發的POST，到了交大「鳳凰城」也可以看得到，那有多好啊！於是我們有了「轉信」這玩意。早期的轉信，還真的是轉「信」，和寄e-mail一樣是用sendmail這支程式跑的。可是呢，用sendmail轉信慢又麻煩，不敷使用。後來就有人寫了透過news來轉信的程式，叫做bbsinnd。現在我們用的轉信程式是innbbsd，負責為各站之間搭起友誼的橋樑。</font> 
+    </p> 
+    <p class="contect"><font size="3" color="#0000FF">　　人的慾望是無窮的(笑)。又有人想啦：有時候我看到好友上站，想打聲招呼，talk的話有點麻煩，寫mail嫌囉嗦，Unix裡有write這個指令可以寫一句話給線上其他人，那可不可以也在BBS裡write一下呢？這個理想，在清大資科楓橋驛站被實現了。</font> 
+    </p> 
+    <p class="contect"><font size="3" color="#0000FF">　　清大楓橋(Maple)的程式最早脫胎於大同祕密情人資訊站的Secret_Lover    
+    3.1版。由於秘密情人的games和楓橋驛站的opus等人(都是大大級人物^^;)都對程式設計蠻有興趣的，就合作開發，還開了個專板Plan交流彼此的程式。許多現今我們熟悉的BBS功能，如KTV包廂式chat    
+    room、線上Call-in(後來在SOB裡叫水球)、動態看板等等都是由這兩站首先發展出來的。Secret_Lover也是第一個大量使用    
+    ANSI color 的BBS，再加上動態看板，使BBS世界更加多采多姿，增色不少    
+    。</font>   
+    </p>   
+    <p class="contect"><font size="3" color="#0000FF">　　另一個重大影響BBS界的programmer出現在台大陽光沙灘。陽光沙灘是由站長woju以Maple    
+    2.36為底子發展出Sob version，簡稱SOB。在這個版本裡面，出現了壞人名單、好用的DOSKEY、文摘等許多新功能，編輯器也改用woju自己寫的ve，更加好用、更加方便。然而最最重要的是SOB提供架站者一條捷徑。之前的BBS大都是架在學校的工作站級電腦上，但陽光沙灘不同。得FreeBSD,</font>   
+    </p>  
+    <p class="contect"><font size="3" color="#0000FF">　　Linux等PC上的Unix系統風行之助，BBS站也可以架在大學宿舍裡。woju大大看準這點，推出架站Plug    
+    &amp; Play包，這樣只要將檔案解壓之後，改改站名，照著說明設定一下，一個全新的BBS就誕生了！好架，易用，還要求什麼呢？於是SOB系統如風行草偃一般征服了各站，到處都可以看得到，也出現了許多承襲SOB而來的BBS版本。<br>   
+    </font>   
+    </p>   
+    <p class="contect"><font size="3" color="#0000FF">　　另一個Phoenix BBS的分支是中山大學的FireBird，筆者沒有架過因此不太熟^^;。FireBird有所謂的M版，是大紅花的國度站出的補強版本。火鳥BBS系統有GB碼簡體字版，事實上大陸的許多BBS都是使用火鳥。如果您有空到對岸的BBS逛逛，在版權頁上您應當可以發現&quot;Taiwan&quot;等字樣。</font>   
+    </p>   
+    <p class="contect"><font size="3" color="#0000FF">　　現在的BBS大多加上了一些娛樂功能，如貨幣制度、點歌、電子雞、股市、小瑪莉、猜數字、下五子棋……等等。這使得BBS在傳統三大功能-佈告討論區、電子郵件、線上聊天之外，又開拓、整合了另一個天地。只是這些附加功能，在吸引一般大眾的喜愛之外，會不會導致原本BBS人際交流互動的精神喪失，或是討論區中討論的風氣與品質深度的下降呢？貨幣制度如果實施不當，會不會產生貧富不均或類似現實生活中金融風暴的危機呢？這又是另一個值得我們深入瞭解思考的問題了。</font></p> 
+    <center>
+
+    <p class="main" style="text-align:center"><font size="3" color="#FF0000"><b>幾個常見的BBS系統整理</b></font></p> 
+    <div align="center"><center><table border="1" cellspacing="1" bordercolor="#CC66FF" bordercolorlight="#CCCCFF" width="386"> 
+      <tr> 
+        <td align="center" width="110"><font color="#800000">系&nbsp; 統</font></td>  
+        <td align="center" width="129"><font color="#800000">發源地</font></td> 
+        <td align="center" width="125"><font color="#800000">作者推薦</font></td> 
+      </tr> 
+      <tr> 
+        <td width="110">Feeling BBS</td>   
+        <td width="129">bbs.ccu.edu.tw</td>   
+        <td width="125">　</td>
+      </tr>
+      <tr>
+        <td width="110">Firebird BBS</td>   
+        <td width="129">bbs.cs.ccu.edu.tw</td>   
+        <td width="125">bbs.fg.tp.edu.tw</td>   
+      </tr>   
+      <tr>   
+        <td width="110">Maple BBS</td>   
+        <td width="129">bbs.cs.nthu.edu.tw</td>   
+        <td width="125">bbs.kimo.com.tw</td>   
+      </tr>   
+      <tr>   
+        <td width="110">NSYSU BBS</td>   
+        <td width="129">bbs.nsysu.edu.tw</td>   
+        <td width="125">bbs.kghs.kh.edu.tw</td>   
+      </tr>   
+      <tr>   
+        <td width="110">Phoenix BBS</td>   
+        <td width="129">bbs.csie.nctu.edu.tw</td>   
+        <td width="125">　</td>
+      </tr>
+      <tr>
+        <td width="110">Ptt</td>
+        <td width="129">ptt.csie.ntu.edu.tw</td>
+        <td width="125">　</td>
+      </tr>
+      <tr>
+        <td width="110">Sob</td>
+        <td width="129">sob.m7.ntu.edu.tw</td>
+        <td width="125">bbs.kshs.kh.edu.tw</td>
+      </tr>
+      <tr>
+        <td width="110">Wind &amp; Dust</td>
+        <td width="129">wd.twbbs.org</td>
+        <td width="125">wolf.twbbs.org</td>
+      </tr>
+    </table>
+    </center></div><div align="center" class="contect"></div></td>
+  </tr>
+  <tr>
+    <td width="100%" height="91"><hr width="90%" align="center" color="#808000">
+    <p align="center"><font size="2"><a href="index.htm"><font color="#800000">回電腦小百科主頁</font></a></font> </p>
+    <hr width="90%" align="center" color="#808000">
+    </td>
+  </tr>
+</table>
+</center></div>
+
+</body>
+<script language="javascript" src="/javascripts/ga.js"></script></html>

@@ -1,0 +1,36 @@
+[34;47m 作者 [37;44m Clem Chuang <b5506056@csie.ntu.edu.tw>,             [34;47m 看板 [37;44m plan        [m
+[34;47m 標題 [37;44m Re: [M3] 年底前的 release                                              [m
+[34;47m 時間 [37;44m Dept. of Computer Science, Nat'l Tsing Hua  (Wed Dec 30 19:18:22 1998) [m
+[34;47m 路徑 [37;44m maple!news.cs.nthu!not-for-mail                                        [m
+[34;47m 來源 [37;44m clem.m3.ntu.edu.tw                                                     [m
+[36m───────────────────────────────────────[m
+
+SoC.bbs@bbs.cs.nthu.edu.tw (Keep on working) writes:
+
+[36m> ※ 引述《lkchu.bbs@Rouge.Dorm10.NCTU.edu.tw (也樓ㄎㄟ西爺取優)》之銘言：[m
+[36m>     清楚的說明那些部份是非 Maple 3 原創的部份,[m
+[36m>     而是 lkchu 大大自己創作的 (如: ChangeLog),[m
+[36m>     應是換掉 Maple 這個字眼前, 對原作者的一種[m
+[36m>     尊重吧.[m
+>
+[36m>     另, Maple 3 絕大部份的主體架構是由 opus[m
+[36m>     (Jeng-Hermes Lin) 荍髡, 如使用了 Maple[m
+[36m>     的主體, 如果只是加上些 patch 後, 又如果把[m
+[36m>     Maple 的字眼拿掉, 直接換個名字來公開發表,[m
+[36m>     個人淺見以為, 這相當不尊重 opus 當初開發[m
+[36m>     Maple 3 的努力.[m
+
+  嗯， 插一下花 ， GPL 的精神即是任何人都可以拿來自由散布
+  不論是改個名字甚至拿來賣都無所謂
+  前提是別人也可以拿你的 source code 來做同樣的事。
+  這軟體是為任何人所擁有的
+  唯有這樣才能保障軟體持續的進步， 也能讓軟體「更好用」。
+
+  SoC 所說的「尊重」我十分贊同， 也是基本的禮貌。 但在此想請問
+  Maple3 的授權為何？ 似乎在文件或 source 中沒有看到相關的說明。
+  不過內部有些剪貼來的程式碼「似乎」是 BSD 或 GPL 授權的
+  我真的是不太清楚啦， 所以想請問各位大大， 先謝謝你的解惑。
+
+--
+Clem Chuang
+http://freebsd.ntu.edu.tw/taiwan/clement

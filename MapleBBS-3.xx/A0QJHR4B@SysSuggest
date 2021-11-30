@@ -1,0 +1,38 @@
+[34;47m 作者 [37;44m lkchu.bbs@Rouge.Dorm10.NCTU.edu.tw (冷～馨～居～),  [34;47m 看板 [37;44m plan        [m
+[34;47m 標題 [37;44m [anon] Maple 3.01 on FreeBSD 2.2.6-STABLE                              [m
+[34;47m 時間 [37;44m 冷馨居 (Sun Apr 19 02:03:19 1998)                                      [m
+[34;47m 路徑 [37;44m maple!news.cs.nthu!Rouge                                               [m
+[34;47m 來源 [37;44m rouge.dorm10.nctu.edu.tw                                               [m
+[36m───────────────────────────────────────[m
+
+    source code avaliable at
+      ftp://Rouge.Dorm10.NCTU.edu.tw/pub/bbs/Maple-301/maple301_fbsd-2.2.6.tgz
+
+    此次主要解決了不能 talk、chat 的問題及連線精華區的問題.
+
+    Maple III 簡述:
+
+      很多人抓回去後雖然 compile 出來卻不知道怎麼 run bbs，在這做點簡單的介紹
+      bbsd 在 run 之前要先執行 util/camera & util/account，原因在此不詳述，請
+      自行閱讀 source code.
+
+      mail system 部份希望有網友能幫忙在 FBSD 上測試，在這也大致介紹一下.
+
+      util/bmtad.c  Mail Transport Agent for BBS
+      util/bmda.c   Mail Deliver Agent for BBS
+
+      bmtad 用來取代 sendmail，跑在 SMTP port，所以要用 root 來執行，但不需
+      setuid root，因為這是專門替 bbs 量身定做的 mail system，並不會替系統
+      中的 shell account 收信.
+
+      註. 此程式在 solaris 上會有嚴重的問題，導致無法審劾認證信，現已找出問題
+          所在，但不知同樣的情況是否會發生在 FreeBSD 上，請各位幫忙測試.
+
+    以上淺見若有錯誤歡迎指教回報 140.113.122.207.(run on Solaris 2.6 x86) 之
+    src 看版.
+
+--
+
+                                            lkchu@FreeBSD.csie.NCTU.edu.tw.
+--
+[1;36m※ Origin: 冷 馨 居(Rouge.Dorm10.NCTU.edu.tw) ◆ From: Rouge.Dorm10.NCTU.edu.tw[m

@@ -1,0 +1,19 @@
+[34;47m 作者 [37;44m opus (人生有味是清歡)                               [34;47m 看板 [37;44m plan        [m
+[34;47m 標題 [37;44m Re: 請問 maple2.36b可以開匿名板嗎???                                   [m
+[34;47m 時間 [37;44m Sun Aug  3 04:57:53 1997                                               [m
+[36m───────────────────────────────────────[m
+
+[1;36m※ 引述《ruey (fred wu)》之銘言：[m
+[36m> ※ 引述《shadow.bbs@engbbs.ust.hk (雪山白鳳凰)》之銘言：[m
+[33m> > config.h:[m
+[33m> > #define HAVE_ANONYMOUS          /* 提供 anonymous 板 */[m
+[36m>   我看過了,那是在 Maplebbs-current.tgz 所解出來的 config.h 才有,[m
+[36m>   2.36b 那個是沒有的,所以我才想問問看 "Maplebbs-current.tgz" 是那一版呀??[m
+    介於 2.36 跟 2.39 之間。2.36 release 之後，有人嘗試 port 到
+    IBM AIX / FreeBSD / Solaris 等系統平台，主要是解決垮平台的
+    問題，其次是新增若干功能。
+
+    目前 MapleBBS 3.0 主要的努力在於 refine 既有程式，以及開發
+    client/server 版本，短期內沒有 release 的計畫。
+--
+[1;36m※ Origin: 楓橋驛站(bbs.cs.nthu.edu.tw) ◆ From: cs20[m

@@ -1,0 +1,54 @@
+[34;47m 作者 [37;44m opus (浮生千山路)                                   [34;47m 看板 [37;44m install     [m
+[34;47m 標題 [37;44m [MapleBBS 2.36] 總算 release 了                                        [m
+[34;47m 時間 [37;44m Thu Dec 21 06:51:40 1995                                               [m
+[36m───────────────────────────────────────[m
+
+   ■ 如何取得 MapleBBS 程式？
+
+      ftp://ftp.cs.nthu.edu.tw/pub/CS/BBS/MapleBBS-2.36.tar.gz
+
+   ■ 相關說明文件收錄在 MapleBBS-2.36.tar.gz 中，
+      如果要先睹為快的話，也可以先 ftp 回去看：
+
+      ftp://ftp.cs.nthu.edu.tw/pub/CS/BBS/doc/*
+
+            MANIFEST   -  檔案說明
+            INSTALL    -  快速安裝入門
+            README     -  系統安裝說明
+
+            ADMIN      -  系統管理員使用手冊
+            FEATURE    -  程式技術與特色
+            TRANSFORM  -  資料轉換說明
+            USER       -  一般使用者操作入門
+
+   ■ 程式特色簡介
+
+      * 程式最佳化：code size 163840 for SunOS，114688 for Linux，
+        run-time 記憶體的需求約為 80K - 600K，視使用者做什麼事而定，
+        在清華資科《楓橋驛站》(bbs.cs.nthu.edu.tw) 上的運作情況是：
+
+                記憶體空間  │  最高同時上站人數
+                ──────┼─────────
+                  32M       │    180 人
+                  48M       │    272 人
+
+        看板 220 個，註冊人數約 8500 人，而有不錯的效果，系統負載
+        介於 5.0 - 18.0 之間。
+
+      * 貼心的操作介面、完整的功能：你玩過就知道了。
+
+      * 每一支程式都不需要 set-uid，系統比較安全 (security)。
+
+      * 全部以 C 撰寫，包含下列部份：
+
+        maple    -  BBS 主體程式
+        door     -  網路資源連線程式，支援 BBS/GOPHER/MUD/LIBRARY/WWW 等
+        fm       -  a binary editor (File Modifier)
+        innbbsd  -  skhuang 的轉信程式，加上一點小修改
+        script   -  外掛程式的 shell scripts
+        telnetd  -  standalone telnet daemon
+        tran     -  資料轉換程式 (for Phoenix 4.x & Secret_Lover 4.x)
+        util     -  工具程式、統計程式、資料維護備份等
+        zmodem   -  Z-modem file upload/download
+
+      * 周詳的說明文件，上一個版本太簡略了 p:

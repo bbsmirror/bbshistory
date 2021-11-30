@@ -1,0 +1,40 @@
+[34;47m 作者 [37;44m kftseng.bbs@bbs.nchu.edu.tw (玦), 信區: install                        [m
+[34;47m 標題 [37;44m Re: 請大家幫我想一下....                                               [m
+[34;47m 時間 [37;44m 中興大學天樞資訊網 (Sun Apr  2 13:18:58 1995)                          [m
+[34;47m 路徑 [37;44m bridge!bbsroute!news.csie.nctu.edu.tw!news.cc.nctu.edu.tw!ccnews.nchu. [m
+[36m───────────────────────────────────────[m
+
+==> 在 [Sonic.bbs@cc05.ccit.edu.tw] 文中提到:
+[36m:         如果把 Pheonix 2.0 的 update 成 Pheonix 4.0 , 原來的舊信[m
+[36m:         及 user 資料會不會不能用? 那如果 update 成 中興天樞資訊[m
+[36m:         網的又如何呢?[m
+
+        phoenix 的問題我不知道, 不過聽 jjyang 大大說過, phoenix 一開始就是
+        v3.x...
+
+        中興 bbs 一開始更動程式就不是由交大資工的 phoenix 來的. 是直接從
+        eagle bbs v2.0 (phoenix bbs 好像是 v2.1) 一路 patch 上來的.
+
+        所以我有不知道能不能轉. 不過除非您有辦法拿到 pivot bbs v3.x 系列,
+        不然我認為您要更動的地方會很多. 在 v4.x 後整個資料結構已經被我破壞.
+        v5.x 後更動的更多. v5.08beta 等下要 release 的這版, 連 v5.07 要
+        upgrade 上來都要耗一段不短的時間.
+
+        v3.x 系列是摧毀 eagle bbs 的 user mail struct, 使用精簡 mailheader
+        結構. 一部份程式來源是交大資工贊助, 不過那些程式到我手裡都有易容過.
+        看起來有點像, 骨子裡不是那麼回事.
+
+        v4.x 是主力是修正一堆垃圾程式還有增加一些有的沒的, 在中興 bbs FAQ 區
+        history 部份寫的比較清楚.
+
+        v5.x 主力是將贊助程式取消, 改用更精簡的程式規劃. Eagle BBS 在這版中,
+        只剩 io.c 等零碎程式, 主架構已經摧毀..
+
+        所以, 由此觀來, 若不是一開始就用中興的程式, 並隨著程式發展一路 upgrade
+        中途要轉換會比較困難一點..  通常要有足夠的程式資料結構能力才轉的過來.
+--
+[1;31mKuo-Feng Tseng[m [1;36m曾國豐[m [1;31m48062143[m □■ [1;32m悲欣交集[m ■□ [1;31m國立中興大學土木工程系四年級[m
+□  [1;34m法本法無法[m　■  [1;33m君子之交　其淡如水　執象而求　咫尺千里[m  □  [1;34m今付無法時[m  ■
+■  [1;34m無法法亦法[m　□  [1;33m問余何適　廓爾忘言　華枝春滿　天心月圓[m  ■  [1;34m法法何曾法[m  □
+[1;31mkftseng@bbs.nchu.edu.tw[m ■□ [1;35mDep. of Civil Engineering, NCHU, Taichung, Taiwan[m
+* Origin: 中興大學天樞資訊網 <bbs@bbs.nchu.edu.tw> [FROM: 140.120.3.3]

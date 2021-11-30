@@ -1,0 +1,42 @@
+[34;47m 作者 [37;44m woju@freebsd.ee.ntu.edu.tw (無條件的愛),            [34;47m 看板 [37;44m plan        [m
+[34;47m 標題 [37;44m [說明] 安裝/改版 Maple-sob/fromzero 請注意                             [m
+[34;47m 時間 [37;44m 從零開始 (Fri Jan  1 08:20:02 1999)                                    [m
+[34;47m 路徑 [37;44m maple!news.cs.nthu!fromzero                                            [m
+[34;47m 來源 [37;44m freebsd.ee.ntu.edu.tw                                                  [m
+[36m───────────────────────────────────────[m
+
+[1;36m※ [本文轉錄自 InstallBBS 看板][m
+
+發信人: woju@bbs.ee.ntu.edu.tw (無條件的愛), 看板: InstallBBS
+標  題: [說明] 安裝/改版 Maple-sob/fromzero 請注意
+發信站: 台大電機 Maxwell BBS (Fri Jan  1 00:22:01 1999)
+轉信站: fromzero!freebsd.ntu!bbs.ee.ntu!Maxwell
+
+Maple2.36/sob-fromzero 有關 "credits" 方面 woju 處理的太草率，雖在 src/
+(如 maple/config.h) 的檔頭和 ~bbs/Version 等處有 NTHU/authors 資訊，但有
+些使用 Maple 2.36 系統的人(sob/fromzero)可能還不知 "credits" 的正確資訊。
+
+為此，woju 做了些補救措施 --
+ftp://bbs.ee.ntu.edu.tw/pub/fromzero/00readme.txt
+檔頭加上 --
+<00readme>
+                      [發源地 NTHU CS Maple 2.36]
+telnet://bbs.cs.nthu.edu.tw
+ftp://ftp.cs.nthu.edu.tw/pub/CS/BBS/
+</00readme>
+
+將 "distfiles" 改名為 Maple-2.36-fromzero-3.0.tgz (fromzero-3.0 symlink to it)
+
+ftp://freebsd.ntu.edu.tw/freebsd/taiwan/maple/fromzero/ (taiwan/fromz ln-s it)
+ftp://freebsd.ntu.edu.tw/freebsd/taiwan/maple/sob-version/
+有相同的修正。
+
+為避免更多的誤解產生，請大家提到 Maple-sob/fromzero 時 *不要* 使用類似如下
+的描述句 --
+「由 woju 出的 sob/fromzero bbs」                       *請別這麼說*
+請改為 --
+「由 NTHU CS 發展的 Maple BBS(，woju 改過的 sob/fromzero)」
+謝謝大家的配合。
+
+--
+精選文件與網站 -- http://freebsd.ntu.edu.tw             http://woju.o3.net

@@ -1,0 +1,31 @@
+[34;47m 作者 [37;44m woju@freebsd.ee.ntu.edu.tw (Sound),                 [34;47m 看板 [37;44m installbbs  [m
+[34;47m 標題 [37;44m [announce] maple.fromzero                                              [m
+[34;47m 時間 [37;44m 從零開始 (Wed Oct  1 21:02:57 1997)                                    [m
+[34;47m 路徑 [37;44m maple!news.cs.nthu!news.mcu!netnews.ntu!fromzero                       [m
+[34;47m 來源 [37;44m @freebsd.ee.ntu.edu.tw                                                 [m
+[36m───────────────────────────────────────[m
+
+gopher freebsd.ee.ntu.edu.tw
+5. -> 3. -> 1. bbs -- Maple.fromzero
+
+Maple 2.36 的另一個新分支，也就是現在 freebsd.ntu.edu.tw 所使用的版本，
+由 Maple 2.36 sob-version 「改良」(或者說改爛:p)而成，主要的「特色」是
+考慮到較多的「安全問題」。
+
+雖然堆出才「幾分鐘」，應該沒有所謂的 "FAQ" ... 還是預先回答幾個問題:
+
+FAQ 1. fromzero 有 non-FreeBSD 的版本嗎?
+   沒有，短期內也無相關的發展計畫。
+
+FAQ 2. 遇到問題時該在何處提出呢?
+   裝好後有「內建」 SobVersion 版，相關的轉信設定都弄好了，可在 SobVersion
+   版提出。
+
+FAQ 3. fromzero 和 sob-version or 原版 Maple 2.36 的相容性如何呢?
+   靜態資料，如看版、密碼檔、文章、信件等完全相容。
+   精華區和 sob-version 相容。
+
+--
+吳 慶 鴻，woju@freebsd.ee.ntu.edu.tw | 台大電機，http://freebsd.ee.ntu.edu.tw
+--
+Origin: 從零開始 freebsd.ee.ntu.edu.tw (140.112.19.123)

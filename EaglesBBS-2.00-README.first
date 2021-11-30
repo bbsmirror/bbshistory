@@ -1,0 +1,110 @@
+
+========
+Welcome!
+========
+
+Welcome to the Eagles BBS source, version 2.00
+
+This software is another flavor of Ed Luke's Pirates BBS system, made famous
+by the Mars Hotel BBS. This software started out as PBBS 1.6, and
+is the product of many months of additions and enhancements made to the
+Eagle's Nest BBS (hence the name of this package). There was enough interest
+in this code to make packaging it up and offering it for distribution a
+worthwhile effort...so here you have it! Enjoy!
+
+Please send any bug reports/complaints/compliments/bbs news/whatever to
+the address at the bottom of this file. We like talking about bbsing, really.
+
+==============
+Known Problems
+==============
+
+This is the third (1.0, 1.1, 2.00) and probably final release of EBBS.
+This code is currently running on the Eagle's Nest BBS so we know it works. 
+We have two problems on that BBS which I cannot determine the source of;
+I don't think they're bugs in this code. 
+
+First, sometimes the .DIR files, which are directories for mailboxes and 
+boards, get corrupted and cause garbage to be displayed. We have only seen 
+this on the Eagle's Nest. Rarely, race conditions mess up boards on other 
+systems. But it's very rare. To mimimize the effect of this I have code inside
+#ifdef POSTBUG guards which helps somewhat. You probably don't need to #define
+this, but it's there if you have problems with garbage showing on boards and
+in mail.
+
+Second, chat and IRC daemons sometimes just die, usually under heavy load.
+The frequency of this varies from machine to machine and is probably just a
+kernel resource exhaustion. Usually when one chat daemon dies the other one
+can be started up without problem.
+
+=========================
+Things that aren't so hot
+=========================
+
+We've hacked this code to the point where it's becoming counterproductive.
+Therefore, this will be the last feature release; any further releases of 
+this software will be new ports (currently we only are running on SunOS 4.1
+and ESIX/386 -- more ports are in the works) and perhaps bug fixes. 
+One day, I might rewrite this whole thing from the ground up now that I 
+know how I want it to work. This might get done before this millenium is 
+over, but I can't promise. :)
+
+Here are some things (not bugs) that we'd have liked to make better but 
+didn't have the time or were too damn difficult.
+
+-- The upload/download facility. Everything inside #ifdef FILES
+   guards and in the protocols subdirectory is untouched from PBBS 1.6.
+   This is because the seabass (home of the Eagle's Nest) doesn't have
+   the disk space required for this. Remember this if you use the
+   UL/DL facilities -- PBBS was written for SunOS 4.x and we didn't port
+   these parts.
+
+-- The mail directories. They're currently the same structure (struct 
+   fileheader) as the board directories, meaning there are MAXUSERS bytes 
+   for the read/owned/visited bits (780 by default). These are unneccesary 
+   in the mail directories, and result in a LOT of wasted disk space. 
+   I tried to remedy this but it got to be too nasty of a hack job so I
+   backed off. *sigh*
+
+-- The irc subpackage. It's old. REAL old. Won't work with ircII even, so
+   I wouldn't try to hook it to the global irc net. It is safe for the bbs
+   (no shell escape, etc.) and does have hooks into the bbs, say, for
+   the /users command. It's nice for local chat but that's about it.
+
+   BUT...if you have an ircII client or something else nice compiled for 
+   your system, you can hook it into the BBS by installing your client in the 
+   ~bbs/bin directory. I would HIGHLY recommend you strip out the CD and EXEC
+   commands, though.
+
+================
+Acknowledgements
+================
+
+Many thanks to the following. I owe y'all a cold beer or hot pizza, or both.
+
+Ed "lush" Luke, for valuable help when we needed it early on
+Jim "maXx" Morton and Chatsubo BBS, for being a much needed second beta site
+"Billy" Schwartz and Auggie BBS, for the scads of bug reports and always being
+  there to test out new features, and for the BBSNet and 4m stuff
+Carey Chou and the NSYSU BBS, for the #ifdef BIT8 stuff to aid porting to
+  non-ANSI character sets
+John "Dweezil" Salmi, for mega help with the IRC and porting in general
+Randy "DontKnow" Austin, for all the bugs reports and code contributions,
+  including some name completion and chat enhancements
+The folks at Hotel California, for inspiring so many of the ideas within
+Ray "DrC" Seyfarth, for giving us the space and support to make the 
+  Eagle's Nest a reality
+
+And most of all to the faithful users of the Eagle's Nest BBS for their 
+input, help, suggestions, and tons of patience for putting up with my 
+often-blundering programming. :)
+
+Long live Internet BBSing!
+
+Ray "TheRock" Rocker
+rrrocker@rock.b11.ingr.com
+1.0 release: August 1, 1992
+1.1 release: October 2, 1992
+2.0 release: May 1, 1993
+
+Now go read README.install to see how to make this stuff work.

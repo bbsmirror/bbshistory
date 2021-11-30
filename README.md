@@ -5,6 +5,10 @@ about information of bbs history,
 all coryrights reserved from each author.
 
 File list (from oldest to newest):
+- [EaglesBBS-2.00-README.first](EaglesBBS-2.00-README.first)
+    - The introduction file of Eagles BBS 2.00
+    - Retrieved from [Secret BBS 4.0](https://github.com/bbsmirror/BBSmirror/blob/master/SecretBBS/SecretLover_4.0b/S4.0B.tgz) (`S4.0B/doc/README.install.obsoleted`)
+    - Mentioned the contribution from `Carey Chou and the NSYSU BBS`
 - [A0ODH4T1@SysSuggest](A0ODH4T1@SysSuggest)
     - `[MapleBBS 2.36] 總算 release 了`, by opus
 - [A0OOHK9L@SysSuggest](A0OOHK9L@SysSuggest)

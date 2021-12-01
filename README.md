@@ -17,7 +17,7 @@ File list (from oldest to newest):
     - `Re: 請問 MapleBBS 是從那一版的 Phoniex 改過來的?`, by opus
     - The reference of [bbs.htm](bbs.htm)
 - [A0OOM2IB@SysSuggest](A0OOM2IB@SysSuggest)
-    - `Re: 請問 MapleBBS 是從那一版的 Phoniex 改過來的?`, by game
+    - `Re: 請問 MapleBBS 是從那一版的 Phoniex 改過來的?`, by games
 - [19950402T131858@install](19950402T131858@install)
     - `Re: 請大家幫我想一下....`, by kftseng
     - The history of Pivot BBS/Feeling BBS

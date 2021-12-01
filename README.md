@@ -1,5 +1,7 @@
 # BBS History Info
 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 about information of bbs history,
 
 all coryrights reserved from each author.
@@ -54,3 +56,11 @@ File list (from oldest to newest):
     - Mentioned the MapleBBS 3.0x credit issue
 - [bbs.htm](bbs.htm)
     - `台灣BBS發展簡史`, by 陳子文
+
+<script type="text/javascript">
+$("#content a[href^='{{ site.baseurl }}/']:not([href$='.htm'])").each(function (idx) {
+    var url = $(this).attr("href").substring("{{ site.baseurl }}/".length)
+    var url_raw = "https://raw.githubusercontent.com/{{ site.github.repository_nwo }}/{{ site.github.source.branch }}/" + url
+    $(this).attr("href", url_raw)
+})
+</script>

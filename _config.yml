@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+title: TANet BBS History Documentations
+description: History documentations about Telnet BBSs in Taiwan
+plugins:
+  - jemoji

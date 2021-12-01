@@ -21,9 +21,9 @@ File list (from oldest to newest):
 - [19950402T131858@install](19950402T131858@install)
     - `Re: 請大家幫我想一下....`, by kftseng
     - The history of Pivot BBS/Feeling BBS
-    - The renaming of Pivot BBS to Feeling BBS
 - [19950817T163852@install](19950817T163852@install)
     - `pivot bbs 天樞資訊網.`, by kftseng
+    - The renaming of Pivot BBS to Feeling BBS
 - [MapleBBS-3.xx/A0PU77QI@SysSuggest](MapleBBS-3.xx/A0PU77QI@SysSuggest)
     - `Re: 請問 maple2.36b可以開匿名板嗎???`, by opus
     - Mentioned the plan of `MapleBBS 3.0`

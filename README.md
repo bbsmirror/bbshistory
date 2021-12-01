@@ -13,7 +13,7 @@ File list (from oldest to newest):
     - `[MapleBBS 2.36] 總算 release 了`, by opus
 - [A0OOHK9L@SysSuggest](A0OOHK9L@SysSuggest)
     - `Re: 請問 MapleBBS 是從那一版的 Phoniex 改過來的?`, by opus
-    - The reference of [index.html](index.html)
+    - The reference of [bbs.htm](bbs.htm)
 - [A0OOM2IB@SysSuggest](A0OOM2IB@SysSuggest)
     - `Re: 請問 MapleBBS 是從那一版的 Phoniex 改過來的?`, by game
 - [19950402T131858@install](19950402T131858@install)
@@ -52,5 +52,5 @@ File list (from oldest to newest):
 - [MapleBBS-3.xx/A11B9NAO@SysSuggest](MapleBBS-3.xx/A11B9NAO@SysSuggest)
     - `版權宣告?`, by Thor
     - Mentioned the MapleBBS 3.0x credit issue
-- [index.html](index.html)
+- [bbs.htm](bbs.htm)
     - `台灣BBS發展簡史`, by 陳子文

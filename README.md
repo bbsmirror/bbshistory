@@ -11,6 +11,12 @@ File list (from oldest to newest):
     - The introduction file of Eagles BBS 2.00
     - Retrieved from [Secret BBS 4.0](https://github.com/bbsmirror/BBSmirror/blob/master/SecretBBS/SecretLover_4.0b/S4.0B.tgz) (`S4.0B/doc/README.install.obsoleted`)
     - Mentioned the contribution from `Carey Chou and the NSYSU BBS`
+- [19950402T131858@install](19950402T131858@install)
+    - `Re: 請大家幫我想一下....`, by kftseng
+    - The history of Pivot BBS/Feeling BBS
+- [19950817T163852@install](19950817T163852@install)
+    - `pivot bbs 天樞資訊網.`, by kftseng
+    - The renaming of Pivot BBS to Feeling BBS
 - [A0ODH4T1@SysSuggest](A0ODH4T1@SysSuggest)
     - `[MapleBBS 2.36] 總算 release 了`, by opus
 - [A0OOHK9L@SysSuggest](A0OOHK9L@SysSuggest)
@@ -18,12 +24,6 @@ File list (from oldest to newest):
     - The reference of [bbs.htm](bbs.htm)
 - [A0OOM2IB@SysSuggest](A0OOM2IB@SysSuggest)
     - `Re: 請問 MapleBBS 是從那一版的 Phoniex 改過來的?`, by games
-- [19950402T131858@install](19950402T131858@install)
-    - `Re: 請大家幫我想一下....`, by kftseng
-    - The history of Pivot BBS/Feeling BBS
-- [19950817T163852@install](19950817T163852@install)
-    - `pivot bbs 天樞資訊網.`, by kftseng
-    - The renaming of Pivot BBS to Feeling BBS
 - [MapleBBS-3.xx/A0PU77QI@SysSuggest](MapleBBS-3.xx/A0PU77QI@SysSuggest)
     - `Re: 請問 maple2.36b可以開匿名板嗎???`, by opus
     - Mentioned the plan of `MapleBBS 3.0`

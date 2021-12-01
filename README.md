@@ -1,6 +1,8 @@
 # BBS History Info
 
+<details style="display:none;"><summary></summary>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</details>
 
 about information of bbs history,
 
@@ -57,6 +59,7 @@ File list (from oldest to newest):
 - [bbs.htm](bbs.htm)
     - `台灣BBS發展簡史`, by 陳子文
 
+<details style="display:none;"><summary></summary>
 <script type="text/javascript">
 $("#content a[href^='{{ site.baseurl }}/']:not([href$='.htm'])").each(function (idx) {
     var url = $(this).attr("href").substring("{{ site.baseurl }}/".length)
@@ -64,3 +67,4 @@ $("#content a[href^='{{ site.baseurl }}/']:not([href$='.htm'])").each(function (
     $(this).attr("href", url_raw)
 })
 </script>
+</details>

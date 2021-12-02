@@ -1,0 +1,42 @@
+[34;47m 作者 [37;44m lkchu.bbs@Rouge.Dorm10.NCTU.edu.tw (沒有答案),      [34;47m 看板 [37;44m plan        [m
+[34;47m 標題 [37;44m Re: maple3的source....                                                 [m
+[34;47m 時間 [37;44m 冷馨居 (Fri Dec 11 02:45:48 1998)                                      [m
+[34;47m 路徑 [37;44m maple!news.cs.nthu!Rouge                                               [m
+[34;47m 來源 [37;44m rouge.dorm10.nctu.edu.tw                                               [m
+[36m───────────────────────────────────────[m
+
+[1;36m※ 引述《SoC.bbs@bbs.cs.nthu.edu.tw (Keep on working)》之銘言：[m
+[36m> ※ 引述《lkchu.bbs@Rouge.Dorm10.NCTU.edu.tw (沒有答案)》之銘言：[m
+[33m> >         弟只想把心力花在刀口上, 事情若全都被我一個人幹掉了,[m
+[33m> >         那別人不就沒有玩的樂趣了 :p[m
+[36m>     這完全驗證了 opus 當初不想正式 release Maple 3 的顧慮.[m
+[36m>     這個 ./configure; make install 相信是每個安裝軟體者的心願,[m
+[36m>     對 maple 而言, 有些時後, 只是誰去掛鈴鐺的問題.[m
+[36m>     個人笨笨以為, 為 maple 好, 那就好人做到底, 把 source 抓回去,[m
+[36m>     改成自已心中的理想, 再把 patch 分享出來, 那就有更多人可以更[m
+[36m>     方便囉 ....[m
+
+    opus 對自己的要求很高, 所以程式一修再修三修, 他也沒有義務要
+    release M3, 嚴格來說, opus 到現在為止也沒正式 release M3 過.
+    目前的 "release" 也是弟假名義以行 :p
+
+    弟對 MapleBBS Core Team 來說算是個外人, 當初只是憑著自己的一
+    點三腳貓功夫把亂亂的 source code 慢慢整理、debug, 讓 M3 可以
+    在其他環境平台上跑起來, 當時程式很亂, 往往抓一個小 bug 要花
+    上好幾個晚上, 阿就這樣花了好幾個星期才把 M3 弄出像樣點樣子.
+    到現在, 用 M3 裝 bbs 不要 20 分鐘就可以有個雛形, 這段路走來
+    回想起來還真有點艱辛.
+
+    好人越來越少啦, 現在也懷疑幹麻要一直做這種白功, 我會用會裝
+    會改就好了, 幹麻還花時間去寫 install, doc, faq...
+    師父引進門, 修行看各人, 我希望給的是釣竿, 而不是給魚吃.
+    況, 現在多的是要了鈴鐺不掛鈴的.
+
+    一些感慨, 隨便寫寫, 謝謝觀賞.
+
+--
+                                                    交大資工 朱亮愷
+                                             E-Mail: <lkchu@dragon2.net>
+--
+[1;32m※ Origin: [33m冷 馨 居 [37m<Rouge.Dorm10.NCTU.edu.tw>[m
+[1;31m◆ From: [36mrouge.dragon2.net[m

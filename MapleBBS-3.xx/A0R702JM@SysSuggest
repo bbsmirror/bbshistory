@@ -1,0 +1,25 @@
+[34;47m 作者 [37;44m SoC (Keep on working)                               [34;47m 看板 [37;44m plan        [m
+[34;47m 標題 [37;44m Re: maple3的source....                                                 [m
+[34;47m 時間 [37;44m Fri Dec 11 01:52:54 1998                                               [m
+[36m───────────────────────────────────────[m
+
+[1;36m※ 引述《lkchu.bbs@Rouge.Dorm10.NCTU.edu.tw (沒有答案)》之銘言：[m
+[33m> > 如果可以[m
+[33m> > /configure[m
+[33m> > make[m
+[33m> > make install[m
+[33m> > 那就更好了 :)[m
+[33m> > 不過這些沒什麼建設性的苦工, 可能沒人要幹吧 :p[m
+[36m>         弟只想把心力花在刀口上, 事情若全都被我一個人幹掉了,[m
+[36m>         那別人不就沒有玩的樂趣了 :p[m
+
+    這完全驗證了 opus 當初不想正式 release Maple 3 的顧慮.
+
+    這個 ./configure; make install 相信是每個安裝軟體者的心願,
+    對 maple 而言, 有些時後, 只是誰去掛鈴鐺的問題.
+
+    個人笨笨以為, 為 maple 好, 那就好人做到底, 把 source 抓回去,
+    改成自已心中的理想, 再把 patch 分享出來, 那就有更多人可以更
+    方便囉 ....
+--
+[1;36m※ Origin: 楓橋驛站<bbs.cs.nthu.edu.tw> ◆ From: alpha5.cs.nthu.edu.tw[m

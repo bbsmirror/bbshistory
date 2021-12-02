@@ -39,6 +39,11 @@ File list (from oldest to newest):
 - [MapleBBS-3.xx/A0QSJP23@SysSuggest](MapleBBS-3.xx/A0QSJP23@SysSuggest)
     - `[M3] 寫在前面.......`, by Thor
     - Mentioned `Maple 3.02`
+- [MapleBBS-3.xx/A0R702JM@SysSuggest](MapleBBS-3.xx/A0R702JM@SysSuggest)
+    - `Re: maple3的source....`, by SoC
+- [MapleBBS-3.xx/A0R705UM@SysSuggest](MapleBBS-3.xx/A0R705UM@SysSuggest)
+    - `Re: maple3的source....`, by lkchu
+    - Relates to the MapleBBS 3.0x credit issue
 - [MapleBBS-3.xx/A0R8K2IR@SysSuggest](MapleBBS-3.xx/A0R8K2IR@SysSuggest)
     - `Re: [M3] 年底前的 release`, by Clem Chuang
     - Mentioned the MapleBBS 3.0x licensing issue

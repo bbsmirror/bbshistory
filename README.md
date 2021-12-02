@@ -47,6 +47,7 @@ File list (from oldest to newest):
 - [MapleBBS-3.xx/A0R8K2IR@SysSuggest](MapleBBS-3.xx/A0R8K2IR@SysSuggest)
     - `Re: [M3] 年底前的 release`, by Clem Chuang
     - Mentioned the MapleBBS 3.0x licensing issue
+    - `荍髡` (Big5: `d3a7 b9a6`): Likely a corruption of `來完成` (Big5: `a8d3 a7b9 a6a8`)
 - [MapleBBS-3.xx/A0R8KJE7@SysSuggest](MapleBBS-3.xx/A0R8KJE7@SysSuggest)
     - `Re: [M3] 年底前的 release`, by SoC
     - Mentioned the MapleBBS 3.0x credit issue

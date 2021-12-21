@@ -26,6 +26,7 @@ File list (from oldest to newest):
     - The reference of [bbs.htm](bbs.htm)
 - [A0OOM2IB@SysSuggest](A0OOM2IB@SysSuggest)
     - `Re: 請問 MapleBBS 是從那一版的 Phoniex 改過來的?`, by games
+    - `圻b` (Big5: `a7a6 62`): Probably a corruption of `我在` (Big5: `a7da a662`)
 - [MapleBBS-3.xx/A0PU77QI@SysSuggest](MapleBBS-3.xx/A0PU77QI@SysSuggest)
     - `Re: 請問 maple2.36b可以開匿名板嗎???`, by opus
     - Mentioned the plan of `MapleBBS 3.0`
